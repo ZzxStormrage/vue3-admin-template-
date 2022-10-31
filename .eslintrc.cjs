@@ -100,7 +100,14 @@ module.exports = {
         ignore: [],
       },
     ],
-    'vue/html-indent': ['error', 4],
+    'vue/html-closing-bracket-newline': [
+      'error',
+      {
+        singleline: 'never',
+        multiline: 'never',
+      },
+    ],
+    'vue/html-indent': ['error', 2],
     'vue/max-attributes-per-line': [
       'warn',
       {

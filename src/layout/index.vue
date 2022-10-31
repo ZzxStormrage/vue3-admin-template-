@@ -1,15 +1,20 @@
 <!--
- * @Author: zzx 452436275@qq.com
  * @Date: 2022-10-24 18:02:05
  * @LastEditors: zzx 452436275@qq.com
- * @LastEditTime: 2022-10-27 10:39:48
- * @FilePath: /vue3-app/src/views/home/layout/index.vue
+ * @LastEditTime: 2022-10-28 17:36:15
+ * @FilePath: /vue3-app/src/layout/index.vue
 -->
+<template>
+  <div>
+    <Sidebar />
+  </div>
+</template>
+
 <script setup>
+import Sidebar from './components/Sidebar/index.vue'
 
 </script>
-<template>
-    layout
-</template>
-<style>
+
+<style lang="scss" scoped>
+
 </style>

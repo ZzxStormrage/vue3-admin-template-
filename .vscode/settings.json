@@ -4,6 +4,7 @@
         "source.fixAll": true,
 		"source.fixAll.eslint": true
     },
+	"prettier.singleQuote": true, // 单引号
     "eslint.validate": [
         "javascript",
         "javascriptreact",
