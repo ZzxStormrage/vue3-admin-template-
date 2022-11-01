@@ -30,7 +30,7 @@ module.exports = {
     quotes: ['error', 'single'],
     'comma-dangle': ['error', 'always-multiline'],
     'object-curly-spacing': ['error', 'always'],
-    'max-len': ['error', 120],
+    'max-len': ['error', 140],
     'no-new': 'off',
     'linebreak-style': 'off',
     'import/extensions': 'off',
@@ -85,6 +85,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     'semi-style': ['error', 'first'],
     'vue/singleline-html-element-content-newline': 'off',
+    'vue/multiline-html-element-content-newline': 'off',
     'vue/v-on-event-hyphenation': [
       'warn',
       'never',
