@@ -1,8 +1,11 @@
 
 {
+	"editor.formatOnSave": false,
+	"editor.formatOnPaste": false,
     "editor.codeActionsOnSave": {
         "source.fixAll": true,
-		"source.fixAll.eslint": true
+		"source.fixAll.eslint": true,
+		"source.fixAll.stylelint": true
     },
 	"prettier.singleQuote": true, // 单引号
     "eslint.validate": [

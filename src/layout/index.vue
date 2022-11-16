@@ -1,20 +1,19 @@
 <!--
- * @Date: 2022-10-24 18:02:05
+ * @Date: 2022-11-16 17:12:00
  * @LastEditors: zzx 452436275@qq.com
- * @LastEditTime: 2022-10-28 17:36:15
- * @FilePath: /vue3-app/src/layout/index.vue
+ * @LastEditTime: 2022-11-16 17:45:07
+ * @FilePath: /vue3-admin-template-/src/layout/index.vue
 -->
 <template>
-  <div>
-    <Sidebar />
+  <div class="layout-wrap">
+    layout-wrap
   </div>
 </template>
-
 <script setup>
-import Sidebar from './components/Sidebar/index.vue'
 
 </script>
-
-<style lang="scss" scoped>
-
+<style lang='scss' scoped>
+  .layout-wrap {
+    width: 100px;
+  }
 </style>
