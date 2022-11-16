@@ -2,12 +2,14 @@
  * @Author: zzx 452436275@qq.com
  * @Date: 2022-10-21 12:20:59
  * @LastEditors: zzx 452436275@qq.com
- * @LastEditTime: 2022-10-28 17:00:15
- * @FilePath: /vue3-app/src/main.js
+ * @LastEditTime: 2022-11-16 18:01:47
+ * @FilePath: /vue3-admin-template-/src/main.js
  */
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
+
+import '@/styles/index.scss' // global css
+
 // 引入路由
 import router from './router'
 

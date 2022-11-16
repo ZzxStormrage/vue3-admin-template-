@@ -28,6 +28,8 @@ module.exports = {
     "selector-pseudo-element-no-unknown": [true, {
       "ignorePseudoElements": ["v-deep"]
     }],
+		"selector-list-comma-newline-after": 'never-multi-line',
+		"no-empty-source": false,
     // 禁止低优先级的选择器出现在高优先级的选择器之后。
     "no-descending-specificity": null,
     // 不验证@未知的名字，为了兼容scss的函数
